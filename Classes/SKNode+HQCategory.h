@@ -20,5 +20,5 @@
 
 - (void)didEndContact:(nullable SKPhysicsContact *)contact;
 
-
+- (void)sceneDidMoveToView:(nullable SKView *)view;
 @end

@@ -12,5 +12,5 @@
 #import "SKEmitterNode+HQCategory.h"
 #import "SKAction+HQCategory.h"
 #import "SKNode+HQCategory.h"
-
+#import "SKScene+HQCategory.h"
 #endif /* Category_h */

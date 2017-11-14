@@ -34,4 +34,9 @@
 
 - (void)didEndContact:(SKPhysicsContact *)contact {}
 
+- (void)sceneWillMoveFromView:(SKView *)view {}
+
+- (void)sceneDidMoveToView:(SKView *)view {}
+
+
 @end
