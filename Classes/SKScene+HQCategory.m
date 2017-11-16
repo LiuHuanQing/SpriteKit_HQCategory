@@ -20,10 +20,19 @@
 
 - (void)hq_didMoveToView:(SKView *)view
 {
-    for (SKNode *node in self.children)
+    [self hq_didMoveToView:view children:self];
+}
+
+- (void)hq_didMoveToView:(SKView *)view children:(SKNode *)node
+{
+    [node sceneDidMoveToView:view];
+    if(node.children.count == 0) return;
+    for (SKNode *subnode in node.children)
     {
-        [node sceneDidMoveToView:view];
+        [self hq_didMoveToView:view children:subnode];
     }
 }
+
+
 
 @end

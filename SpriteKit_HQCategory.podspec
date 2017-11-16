@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SpriteKit_HQCategory"
-  s.version      = "0.0.2"
+  s.version      = "0.0.4"
   s.summary      = "SpriteKit category"
   s.description  = <<-DESC
   SpriteKit category.
